@@ -1,0 +1,89 @@
+.Header{
+      display: flex;
+      justify-content: space-between;
+      border: 1px solid rgb(211, 203, 203);
+}
+
+.logo{
+      width: 100px;
+         
+}
+.load{
+      display: inline-block;
+}
+.Border{
+      border-radius:50%;
+}
+
+
+.nav-items >ul{
+      display: flex;
+      list-style-type: none;
+
+}
+
+.nav-items >ul>li{
+      padding-right: 30px;
+      padding-left: 30px;
+      padding-top: 10px;
+      margin: 5px;
+      font-size: 24px;
+
+}
+
+.restcard:hover{
+      cursor: pointer;
+      border: 1px solid grey;
+}
+.restcard{
+      margin: 5px;
+      padding: 3px;
+      width: 200px;
+
+     
+}
+
+.search{
+      padding: 10px;
+}
+.Rest-img{
+      width: 100%;
+}
+.rest-container{
+      display: flex;
+      flex-wrap: wrap;
+}
+.filter-rest{
+      margin: 10px;
+      cursor: pointer;
+}
+.shimmer-cont{
+      display: flex;
+      flex-wrap: wrap;
+}
+.shimmer-card{
+    
+      margin: 20px;
+      padding: 3px;
+    width: 200px;
+    height: 400px;
+      background: #f0f0f0;
+
+}
+
+.filter{
+      display:flex;
+}
+.login{
+      padding: 10px;
+      cursor: pointer;
+       
+}
+.Error{
+      align-items: last baseline;
+}
+
+.user-card{
+      border: 1px solid black;
+      padding: 10px;
+}
